@@ -38,11 +38,18 @@ article{
 .text-container{
     width: 70%;
     background-color: white;
-    color: black;
     border-radius: 20px;
 }
-.text-container p{
+.text-container p,sup{
     text-align: center;
+    color: black;
+    font-size: 24px;
+    margin: 10px;
+}
+.audio-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 @media screen and (max-width:992px) {
     h1{
@@ -51,5 +58,8 @@ article{
     .balloon{
         height: 80px;
         width: 60px;
+    }
+    .text-container p,sup{
+        font-size: 16px;
     }
 }
